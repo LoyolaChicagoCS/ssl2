@@ -4,9 +4,9 @@ permalink: /graduateStudents/sophieVonHatten
 
 title: Sophie Von Hatten
 img: /assets/img/user.jpg
-github:
-linkedin:
-externalWebpage:
+github: https://github.com/svonhatten
+linkedin: https://www.linkedin.com/in/sophie-von-hatten-9863a018b/
+externalWebpage: /assets/docs/SophieVonHattenResume-Sophie_Von_Hatten.docx
 resume:
 ---
 
@@ -29,18 +29,18 @@ Sophie is a Front-end Software Engineer currently in her 1st year as a Graduate 
 {% assign splitTitle = page.title | split: " " %}
 {% assign lastName = splitTitle[1] %}
 {% assign firstName = splitTitle[0] %}
-{% assign projects = site.data.projects %}
-{% assign team = site.data.team %}
+{% assign projects = site.data.projects | sort: "projectName" %}
+{% assign team = site.data.team | sort: "lastName" %}
 
+<div class="projects grid">
 {% for member in team %}
 {% if member.lastName == lastName %}
 {% if member.firstName == firstName %}
-<div class="projects grid">
+  {% if member.associatedProjects %}
+  {% for associatedProject in member.associatedProjects %}
+  {% for project in projects %}
+  {% if associatedProject == project.projectName %}
   <div class="grid-item">
-    {% if member.associatedProjects %}
-    {% for associatedProject in member.associatedProjects %}
-    {% for project in projects %}
-    {% if associatedProject == project.projectName %}
     <a href="{{ project.webpage | relative_url }}">
       <div class="card hoverable">
         {% if project.img %}
@@ -67,11 +67,11 @@ Sophie is a Front-end Software Engineer currently in her 1st year as a Graduate 
         </div>
       </div>
     </a>
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
-    {% endif %}
   </div>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+  {% endif %}
 </div>
 {% endif %}
 {% endif %}

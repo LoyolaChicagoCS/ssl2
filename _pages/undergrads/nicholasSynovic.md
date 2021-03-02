@@ -5,36 +5,51 @@ permalink: /undergraduateStudents/nicholasSynovic
 title: Nicholas Synovic
 img: /assets/img/nicholasSynovic.png
 github: https://github.com/NicholasSynovic
-linkedin:
-externalWebpage:
-resume:
+linkedin: https://linkedin.com/in/nsynovic
+externalWebpage: https://loyolachicagocs.github.io/ssl/members/undergraduate-researchers-pages/nicholassynovic.github.io/
+resume: https://nicholassynovic.github.io/assets/Nicholas_Synovic-Resume.pdf
 ---
 
 ## About
 
+Nicholas Synovic is an undergraduate researcher working with SSL as a Team Lead and Software Engineer for the back-end portion of the Metrics Dashboard project, the current web maintainer for SSL, and as an Admin for the group. Furthermore, he is a part of the Chicago Area Undergraduate Research Inter-School Board, and the Loyola University Chicago Eta Omega Chapter of Beta Theta Pi as their Vice President of Communications. While taking on this load, Nicholas is also pursuing a bachelor’s degree in Computer Science and intends to pursue a Master’s degree in the same field.
+
 ## Education Background
+
+- BS in Computer Science from Loyola University Chicago. Estimated Graduation: 2022
 
 ## Professional and Community Affiliations
 
+- Vice President of Communications for the Eta Omega Chapter of Beta Theta Pi
+- Board Member of the Chicago Area Undergradute Research Symposium Inter-School Board
+- Member of Don’t Panic!
+- Member of ACM
+
 ## Research Interests
+
+- Web Scraping and Data Collection, Parsing, and Analyzing
+- Portable Systems
+- Politically Focussed Computer Science and Data Analytics
+- User Experiences
+- Accessibility Software
 
 ## Research Projects
 
 {% assign splitTitle = page.title | split: " " %}
 {% assign lastName = splitTitle[1] %}
 {% assign firstName = splitTitle[0] %}
-{% assign projects = site.data.projects %}
-{% assign team = site.data.team %}
+{% assign projects = site.data.projects | sort: "projectName" %}
+{% assign team = site.data.team | sort: "lastName" %}
 
+<div class="projects grid">
 {% for member in team %}
 {% if member.lastName == lastName %}
 {% if member.firstName == firstName %}
-<div class="projects grid">
+  {% if member.associatedProjects %}
+  {% for associatedProject in member.associatedProjects %}
+  {% for project in projects %}
+  {% if associatedProject == project.projectName %}
   <div class="grid-item">
-    {% if member.associatedProjects %}
-    {% for associatedProject in member.associatedProjects %}
-    {% for project in projects %}
-    {% if associatedProject == project.projectName %}
     <a href="{{ project.webpage | relative_url }}">
       <div class="card hoverable">
         {% if project.img %}
@@ -61,11 +76,11 @@ resume:
         </div>
       </div>
     </a>
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
-    {% endif %}
   </div>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+  {% endif %}
 </div>
 {% endif %}
 {% endif %}

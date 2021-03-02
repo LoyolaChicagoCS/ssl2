@@ -4,10 +4,10 @@ permalink: /undergraduateStudents/treyRoche
 
 title: Trey Roche
 img: /assets/img/treyRoche.jpg
-github:
-linkedin:
-externalWebpage:
-resume:
+github: https://github.com/Troche4
+linkedin: https://www.linkedin.com/in/trey-roche-587b7717a/
+externalWebpage: http://treyroche.com/
+resume: /assets/docs/ResumeTreyRoche-Trey_Roche.docx
 ---
 
 ## About
@@ -29,18 +29,18 @@ Trey is an undergraduate researcher at SSL pursuing a B.S. in Computer Science. 
 {% assign splitTitle = page.title | split: " " %}
 {% assign lastName = splitTitle[1] %}
 {% assign firstName = splitTitle[0] %}
-{% assign projects = site.data.projects %}
-{% assign team = site.data.team %}
+{% assign projects = site.data.projects | sort: "projectName" %}
+{% assign team = site.data.team | sort: "lastName" %}
 
+<div class="projects grid">
 {% for member in team %}
 {% if member.lastName == lastName %}
 {% if member.firstName == firstName %}
-<div class="projects grid">
+  {% if member.associatedProjects %}
+  {% for associatedProject in member.associatedProjects %}
+  {% for project in projects %}
+  {% if associatedProject == project.projectName %}
   <div class="grid-item">
-    {% if member.associatedProjects %}
-    {% for project in projects %}
-    {% for associatedProject in member.associatedProjects %}
-    {% if associatedProject == project.projectName %}
     <a href="{{ project.webpage | relative_url }}">
       <div class="card hoverable">
         {% if project.img %}
@@ -67,11 +67,11 @@ Trey is an undergraduate researcher at SSL pursuing a B.S. in Computer Science. 
         </div>
       </div>
     </a>
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
-    {% endif %}
   </div>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+  {% endif %}
 </div>
 {% endif %}
 {% endif %}
