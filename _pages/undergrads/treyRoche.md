@@ -1,21 +1,28 @@
 ---
 layout: profile
-title: Trey Roche
-description: Trey Roche's Webpage
-profile:
- align: right
- image: user.jpg
-importance: 1
 permalink: /undergraduateStudents/treyRoche
+
+title: Trey Roche
+img: /assets/img/treyRoche.jpg
+github:
+linkedin:
+externalWebpage:
+resume:
 ---
 
 ## About
 
+Trey is an undergraduate researcher at SSL pursuing a B.S. in Computer Science. He is currently leading the Color Deficiency Correction Project at SSL. His research interests include web development, distributed systems, and promoting accessible development.
+
 ## Education Background
 
-## Professional and Community Affiliations
+- BS in Computer Science from Loyola University Chicago. Estimated Graduation: 2021
 
 ## Research Interests
+
+- Web Development
+- Distributed Systems
+- Promoting Accessible Development
 
 ## Research Projects
 
@@ -31,8 +38,8 @@ permalink: /undergraduateStudents/treyRoche
 <div class="projects grid">
   <div class="grid-item">
     {% if member.associatedProjects %}
-    {% for associatedProject in member.associatedProjects %}
     {% for project in projects %}
+    {% for associatedProject in member.associatedProjects %}
     {% if associatedProject == project.projectName %}
     <a href="{{ project.webpage | relative_url }}">
       <div class="card hoverable">

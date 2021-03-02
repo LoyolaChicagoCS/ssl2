@@ -1,21 +1,32 @@
 ---
 layout: profile
-title: Isaac Ahlgren
-description: Isaac Ahlgren's Webpage
-profile:
- align: right
- image: user.jpg
-importance: 1
 permalink: /undergraduateStudents/isaacAhlgren
+
+title: Isaac Ahlgren
+img:
+github:
+linkedin:
+externalWebpage:
+resume:
 ---
 
 ## About
 
+Isaac Ahlgren is currently an undergraduate studying Computer Science at Loyola University Chicago.
+
 ## Education Background
+
+- BS in Computer Science from Loyola University Chicago. Estimated Graduation: 2023
 
 ## Professional and Community Affiliations
 
+- Software Intern at Eschaton Technologies
+
 ## Research Interests
+
+- Parallel Computing
+- Mathematical Computation
+- Low Level Programming
 
 ## Research Projects
 

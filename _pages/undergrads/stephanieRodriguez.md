@@ -1,21 +1,28 @@
 ---
 layout: profile
-title: Stephanie Rodriquez
-description: Stephanie Rodriquez's Webpage
-profile:
- align: right
- image: user.jpg
-importance: 1
 permalink: /undergraduateStudents/stephanieRodriquez
+
+title: Stephanie Rodriquez
+img:
+github:
+linkedin:
+externalWebpage:
+resume:
 ---
 
 ## About
 
+Stephanie Rodriguez is pursuing a double-major in Computer Science and Business Information Systems as well as a student in the Quinlan School of Business Honors Program. She has experience in developing data pipelines to transform data stored in common workplace files such as excel, PDFs, text files, etc., to load the data into a local database or one hosted on AWS.
+
 ## Education Background
+
+- BS in Computer Science from Loyola University Chicago. Estimated Graduation: 2021
+- “Loyola University Chicago, Bachelor of Business Administration in Information Systems
+- BBA in Information Systems from Loyola University Chicago. Estimated Graduation: 2021
 
 ## Professional and Community Affiliations
 
-## Research Interests
+- Data Engineer Intern at Kemper Corporation
 
 ## Research Projects
 
