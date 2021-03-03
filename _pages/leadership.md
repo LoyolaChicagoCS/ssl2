@@ -1,13 +1,15 @@
 ---
 layout: page
-title: leadership
 permalink: /leadership/
-description: Our current leaders list.
 nav: true
-social: true  # includes social icons at the bottom of the page
+
+title: leadership
+description: Our current leaders list.
 ---
 
 ## Introduction
+
+---
 
 This page contains the current listing of SSL staff.
 
@@ -39,7 +41,11 @@ In the spirit of being true peers, we list all names in alphabetical order by la
         <img src="{{ leader.img | relative_url }}" alt="leader thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if leader.middleInitial %}
+          <h5>{{ leader.firstName | append: " " | append: leader.middleInitial | append: ". " | append: leader.lastName }}</h5>
+          {% else %}
           <h5>{{ leader.firstName | append: " " | append: leader.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ leader.titles.facultyLeadership }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if leader.socials.github %}
@@ -86,7 +92,11 @@ In the spirit of being true peers, we list all names in alphabetical order by la
         <img src="{{ leader.img | relative_url }}" alt="leader thumbnail">
         {% endif %}
         <div class="card-body">
+          {% if leader.middleInitial %}
+          <h5>{{ leader.firstName | append: " " | append: leader.middleInitial | append: ". " | append: leader.lastName }}</h5>
+          {% else %}
           <h5>{{ leader.firstName | append: " " | append: leader.lastName }}</h5>
+          {% endif %}
           <p class="card-text">{{ leader.titles.studentLeadership }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if leader.socials.github %}
@@ -114,8 +124,12 @@ In the spirit of being true peers, we list all names in alphabetical order by la
 
 ## Leadership Structure
 
+---
+
 The structure of SSL is written out in [this PDF document](/assets/pdf/Software_Systems_Laboratory_Leadership_Structure.pdf).
 
 This document contains all information one may need to know about the different positions and their respected roles within SSL, the organization structure, as well as the application to apply for any of the roles listed within the document.
 
 As a fairly new organization, we are still improving how SSL operates. As such, this document is subject to change in the future, and should be referred back to after such a change is made.
+
+<br>

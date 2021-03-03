@@ -121,7 +121,7 @@
    - ZettelGeist
   webpage:
   externalWebpage:
-  img: /assets/img/user.jpg
+  img: /assets/img/rileyClarkson.jpg
   socials:
     github:
     linkedin:
@@ -170,7 +170,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
-   - ZettelGeist
+    - ZettelGeist
   webpage:
   externalWebpage:
   img: /assets/img/zacharyGallagher.jpeg
@@ -379,6 +379,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
+    - History of Computing
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -540,8 +541,8 @@
     github:
     linkedin:
   titles:
-    default:
-    studentLeadership: Software Developer
+    default: Software Developer
+    studentLeadership:
     facultyLeadership:
     other:
 
@@ -665,6 +666,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
+    - Metrics Dashboard
     - Shape Analysis
     - ZettleGeist
   webpage:

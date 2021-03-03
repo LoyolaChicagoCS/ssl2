@@ -1,14 +1,17 @@
 ---
 layout: page
-title: projects
 permalink: /projects/
-description: Our current list of in progress and incubating research endeavours
 nav: true
+
+title: projects
+description: Our current list of in progress and incubating research endeavours
 ---
 
 {% assign projects = site.data.projects | sort: "projectName" %}
 
 ## In Progress
+
+---
 
 <div class="projects grid">
   {% for project in projects %}
@@ -41,11 +44,12 @@ nav: true
   </div>
 {% endif %}
 {% endfor %}
-
 </div>
 <br>
 
 ## Incubating
+
+---
 
 <div class="projects grid">
   {% for project in projects %}
@@ -78,5 +82,5 @@ nav: true
   </div>
 {% endif %}
 {% endfor %}
-
 </div>
+<br>

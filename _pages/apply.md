@@ -1,12 +1,9 @@
 ---
 layout: about
-title: apply
 permalink: /apply/
 nav: true
 
-news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+title: apply
 ---
 <!-- Markdown Syntax: https://www.markdownguide.org/ -->
 
@@ -15,6 +12,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 ### Introduction
+
+---
 
 We consider applicants for the Software and Systems Laboratory (SSL) on an ongoing basis. However, it is best to apply at the end of the Fall or Spring semester as that will put applicants in the best position to begin working on research the following semester.
 
@@ -26,6 +25,8 @@ While an applicant’s GPA does not determine their acceptance, we prefer to see
 
 ### What Applicants Need to Do
 
+---
+
 Before applying, applicants will need:
 
 - To be in good standing with the Computer Science department,
@@ -35,6 +36,8 @@ Before applying, applicants will need:
 After accomplishing the above tasks, applicants can apply by filling out this [form](https://tinyurl.com/yymoo4af).
 
 ### What We Will Do
+
+---
 
 After receiving an application the advisory board of SSL will review it and determine whether or not to pursue further application steps with the applicant.
 
@@ -46,6 +49,8 @@ The application-specific questions (such as your name or academic level) do not 
 
 ### Final Steps
 
+---
+
 Two meetings are conducted before one is fully accepted into SSL. The first of which is one-on-one with a researcher who has been in SSL for over three semesters. The second of which is an interview with a professor or mentor affiliated with SSL.
 
 The first meeting is designed to see if an applicant would be a good fit for the lab. The questions that will be asked will test their character and not their knowledge of Computer Science or affiliated fields.
@@ -53,3 +58,5 @@ The first meeting is designed to see if an applicant would be a good fit for the
 The second meeting is meant for the applicant to get approval from the LUC Computer Science Staff. Questions asked during this meeting, if any, will be left to the professor or mentor.
 
 After completing both meetings, an applicant becomes a member of SSL and can begin attending research meetings as well as be officially be listed on projects on the SSL website.
+
+<br>
