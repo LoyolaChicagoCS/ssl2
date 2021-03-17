@@ -114,12 +114,13 @@
     other:
   associatedProjects:
     - Autonomous Vehicle Security
+    - Doyle Living Systems Lab
   webpage:
   externalWebpage: https://www.luc.edu/cs/people/ftfaculty/chan-tineric.shtml
-  img: /assets/img/user.jpg
+  img: /assets/img/ericChanTin.jpg
   socials:
     github:
-    linkedin:
+    linkedin: https://www.linkedin.com/in/eric-chan-tin
   titles:
     default: Faculty Advisor
     studentLeadership:

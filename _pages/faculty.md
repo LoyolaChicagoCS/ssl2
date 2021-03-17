@@ -44,6 +44,13 @@ description: Our current faculty list.
               </div>
             </div>
             {% endif %}
+            {% if leader.socials.linkedin %}
+            <div class="linkedin-icon">
+              <div class="icon" data-toggle="tooltip" title="LinkedIn Profile">
+                <a href="{{ leader.socials.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+            {% endif %}
           </div>
         </div>
       </div>
@@ -92,6 +99,13 @@ description: Our current faculty list.
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
                 <a href="{{ advisor.socials.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            {% endif %}
+            {% if leader.socials.linkedin %}
+            <div class="linkedin-icon">
+              <div class="icon" data-toggle="tooltip" title="LinkedIn Profile">
+                <a href="{{ leader.socials.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
               </div>
             </div>
             {% endif %}
@@ -146,6 +160,13 @@ description: Our current faculty list.
               </div>
             </div>
             {% endif %}
+            {% if leader.socials.linkedin %}
+            <div class="linkedin-icon">
+              <div class="icon" data-toggle="tooltip" title="LinkedIn Profile">
+                <a href="{{ leader.socials.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+            {% endif %}
           </div>
         </div>
       </div>
@@ -194,6 +215,13 @@ description: Our current faculty list.
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
                 <a href="{{ lsu.socials.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            {% endif %}
+            {% if leader.socials.linkedin %}
+            <div class="linkedin-icon">
+              <div class="icon" data-toggle="tooltip" title="LinkedIn Profile">
+                <a href="{{ leader.socials.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
               </div>
             </div>
             {% endif %}
@@ -248,6 +276,13 @@ description: Our current faculty list.
               </div>
             </div>
             {% endif %}
+            {% if leader.socials.linkedin %}
+            <div class="linkedin-icon">
+              <div class="icon" data-toggle="tooltip" title="LinkedIn Profile">
+                <a href="{{ leader.socials.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+            {% endif %}
           </div>
         </div>
       </div>
@@ -296,6 +331,13 @@ description: Our current faculty list.
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="GitHub Profile">
                 <a href="{{ purdue.socials.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+            {% endif %}
+            {% if leader.socials.linkedin %}
+            <div class="linkedin-icon">
+              <div class="icon" data-toggle="tooltip" title="LinkedIn Profile">
+                <a href="{{ leader.socials.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
               </div>
             </div>
             {% endif %}
@@ -350,12 +392,19 @@ description: Our current faculty list.
               </div>
             </div>
             {% endif %}
+            {% if leader.socials.linkedin %}
+            <div class="linkedin-icon">
+              <div class="icon" data-toggle="tooltip" title="LinkedIn Profile">
+                <a href="{{ leader.socials.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+            {% endif %}
           </div>
         </div>
       </div>
-    {% if alumnus.externalWebpage %}
+    {% if alabama.externalWebpage %}
     </a>
-    {% elsif alumnus.webpage %}
+    {% elsif alabama.webpage %}
     </a>
     {% else %}
     <!-- Do nothing -->
