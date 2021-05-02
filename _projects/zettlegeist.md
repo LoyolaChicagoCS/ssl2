@@ -2,7 +2,7 @@
 layout: project
 permalink: /projects/zettlegeist
 
-title: Zettlegeist
+title: ZettelGeist
 description:
 img:
 ---
@@ -17,4 +17,4 @@ ZettelGeist is a plaintext note-taking system, inspired by the ZettelKasten Meth
 
 ---
 
-[ZettleGeist Web Site](https://zettelgeist.com)
+[ZettelGeist Web Site](https://github.com/ZettelGeist/zettelgeist/wiki)
