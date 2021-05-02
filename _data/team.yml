@@ -197,7 +197,7 @@
     other:
   associatedProjects:
     - Metrics Dashboard
-    - ZettleGeist
+    - ZettelGeist
   webpage: alumni/seanHiggins
   externalWebpage:
   img: /assets/img/seanHiggins.jpeg
@@ -345,13 +345,13 @@
   firstName: Iryna
   middleInitial:
   section:
-    alumna: true
+    alumna:
     alumnus:
     facultyAdvisor:
     facultyLeadership:
     graduateStudent:
     studentLeadership:
-    undergraduateStudent:
+    undergraduateStudent: true
     other:
   associatedProjects:
   webpage:
@@ -482,7 +482,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - ZettleGeist
+    - ZettelGeist
   webpage:
   externalWebpage:
   img: /assets/img/morganRichardson.jpg
@@ -668,7 +668,7 @@
   associatedProjects:
     - Metrics Dashboard
     - Shape Analysis
-    - ZettleGeist
+    - ZettelGeist
   webpage:
   externalWebpage:
   img: /assets/img/jonathanWarkentin.jpg
@@ -695,7 +695,7 @@
     other:
   associatedProjects:
     - VoltKey
-    - ZettleGeist
+    - ZettelGeist
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
