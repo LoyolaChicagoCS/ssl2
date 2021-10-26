@@ -7,7 +7,7 @@ img:
 github: https://github.com/Steph99rod
 linkedin: https://www.linkedin.com/in/stephanie99rodriguez/
 externalWebpage:
-resume: /assets/pdf/Stephanie_Rodriguez_Resume-Stephanie_Rodriguez.pdf
+resume:
 ---
 
 ## About

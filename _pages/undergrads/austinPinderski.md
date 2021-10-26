@@ -7,7 +7,7 @@ img:
 github: https://github.com/apinderski
 linkedin: https://www.linkedin.com/in/austin-pinderski/
 externalWebpage:
-resume: /assets/pdf/Austin Pinderski_SSL_Resume.pdf
+resume:
 ---
 
 ## About

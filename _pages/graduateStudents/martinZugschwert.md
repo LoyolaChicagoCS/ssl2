@@ -7,7 +7,7 @@ img: /assets/img/martinZugschwert.jpg
 github: https://github.com/MartinZugs
 linkedin: https://www.linkedin.com/in/martinzugschwert/
 externalWebpage:
-resume: /assets/pdf/Martin_Zugschwert_Resume-Martin_Zugschwert.pdf
+resume:
 ---
 
 ## About

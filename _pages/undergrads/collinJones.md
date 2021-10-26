@@ -7,7 +7,7 @@ img: /assets/img/collinJones
 github: https://github.com/CJones217
 linkedin: https://www.linkedin.com/in/the-real-collin-jones/
 externalWebpage: https://collinjones.xyz/
-resume: /assets/pdf/CJones_f20_resume-Collin_Jones.pdf
+resume:
 ---
 
 ## About
