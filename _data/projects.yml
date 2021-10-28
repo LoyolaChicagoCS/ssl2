@@ -112,13 +112,6 @@
   webpage: /projects/flic
   shortDescription: "FLIC: Fog Linked Internet of Things Cache is a fog computing project which makes a fog topology more efficient with its bytes in and bytes out."
   status: Incubating
-=======
-# Template Project
-# - projectName:
-#   img:
-#   webpage:
-#   shortDescription:
-#   status:
 
 - projectName: SSL Website
   img:
