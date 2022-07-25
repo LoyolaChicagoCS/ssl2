@@ -3,12 +3,13 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      - main
       - source
   pull_request:
     branches:
-      - master
+      - main
       - source
+  workflow_dispatch:
 
 jobs:
   deploy:

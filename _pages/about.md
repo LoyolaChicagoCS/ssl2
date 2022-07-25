@@ -47,8 +47,3 @@ To learn more about how to apply, see our [Apply](/apply/) page.
 ---
 
 See [our GitHub repository](https://github.com/LoyolaChicagoCS/ssl2) for the source code of this project or to report issues for this website. Current SSL members should use the issue tracker or pull requests to suggest content changes.
-
-<!-- TODO: Create other formats of the website and host them on GitHub releases -->
-<!-- # > Other Formats {#other-formats}
-
-This site is also available in printable PDF or eBook formats. -->

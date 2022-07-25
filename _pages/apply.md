@@ -5,7 +5,6 @@ nav: true
 
 title: apply
 ---
-<!-- Markdown Syntax: https://www.markdownguide.org/ -->
 
 ## Application Process
 

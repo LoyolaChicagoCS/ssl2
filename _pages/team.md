@@ -27,7 +27,7 @@ description: Our current team list.
     {% endif %}
       <div class="card hoverable">
         {% if grad.img %}
-        <img src="{{ grad.img | relative_url }}" alt="grad thumbnail">
+        <img src="{{ grad.img | relative_url }}" alt="grad thumbnail" style="width 250px; height: 250px; object-fit: cover">
         {% endif %}
         <div class="card-body">
           {% if grad.middleInitial %}

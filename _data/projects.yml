@@ -47,7 +47,7 @@
   shortDescription: The Metrics Dashboard is research software to apply classical in-process and code metrics to observe team progress and project health in open source projects.
   status: In Progress
 
-- projectName: ZettelGeist
+- projectName: ZettleGeist
   img:
   webpage: /projects/zettlegeist
   shortDescription: ZettelGeist is a plaintext note-taking system, inspired by the ZettelKasten Method
