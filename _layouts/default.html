@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    {% include head.html %}
-    {% include scripts/mathjax.html %}
-  </head>
+<head>
+  {% include head.html %}
+  {% include scripts/mathjax.html %}
+</head>
 
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+<body class="fixed-top-nav sticky-bottom-footer">
 
-    <!-- Header -->
+  <!-- Header -->
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <!-- Content -->
+  <!-- Content -->
 
-    <div class="container mt-5">
-      {{ content }}
-    </div>
+  <div class="container mt-5">
+    {{ content }}
+    <hr>
+  </div>
 
-    <!-- Footer -->
 
-    {% include footer.html %}
+  <div class="social">
+    {% include social.html %}
+  </div>
 
-  </body>
+</body>
 
-  {% include scripts/bootstrap.html %}
-  {% include scripts/mansory.html %}
-  {% include scripts/misc.html %}
+{% include scripts/bootstrap.html %}
+{% include scripts/mansory.html %}
+{% include scripts/misc.html %}
 
 </html>

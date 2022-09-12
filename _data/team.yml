@@ -1,0 +1,735 @@
+# Template Profile
+# - lastName:
+#   firstName:
+#   middleInitial:
+#   section:
+#     alumna:
+#     alumnus:
+#     facultyAdvisor:
+#     facultyLeadership:
+#     graduateStudent:
+#     studentLeadership:
+#     undergraduateStudent:
+#     other:
+#   associatedProjects:
+#     - projectName
+#   webpage:
+#   externalWebpage:
+#   img: /assets/img/user.jpg
+#   socials:
+#     github:
+#     linkedin:
+#   titles:
+#     default:
+#     studentLeadership:
+#     facultyLeadership:
+#     other:
+
+- lastName:
+  firstName: Shilpika
+  middleInitial:
+  section:
+    alumna: true
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+    - Metrics Dashboard
+  webpage:
+  externalWebpage:
+  img: /assets/img/shilpika.jpeg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Ahlgren
+  firstName: Isaac
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+    - Non-Local Mean Curvature
+    - VoltKey
+  webpage: undergraduateStudents/isaacAhlgren
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Amobi
+  firstName: Emmanuel
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership: true
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+    - Metrics Dashboard
+    - ZettelGeist
+  webpage: undergraduateStudents/emmanuelAmobi
+  externalWebpage:
+  img: /assets/img/emmanuelAmobi.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership: Administrator
+    facultyLeadership:
+    other:
+
+- lastName: Clarkson
+  firstName: Riley
+  middleInitial:
+  section:
+    alumna: true
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+   - ZettelGeist
+  webpage:
+  externalWebpage:
+  img: /assets/img/rileyClarkson.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Crane
+  firstName: Alexandra
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+    - History of Computing
+  webpage: undergraduateStudents/alexandraCrane
+  externalWebpage:
+  img: /assets/img/alexandraCrane.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Gallagher
+  firstName: Zachary
+  middleInitial:
+  section:
+    alumna:
+    alumnus: true
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+    - ZettelGeist
+  webpage:
+  externalWebpage:
+  img: /assets/img/zacharyGallagher.jpeg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Higgins
+  firstName: Sean
+  middleInitial:
+  section:
+    alumna:
+    alumnus: true
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+    - Metrics Dashboard
+    - ZettelGeist
+  webpage: alumni/seanHiggins
+  externalWebpage:
+  img: /assets/img/seanHiggins.jpeg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Jones
+  firstName: Collin
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+    - Cyclometric Complexity
+  webpage: undergraduateStudents/collinJones
+  externalWebpage:
+  img: /assets/img/collinJones.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Lake
+  firstName: Andrew
+  middleInitial:
+  section:
+    alumna:
+    alumnus: true
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Maliakal
+  firstName: Linette
+  middleInitial:
+  section:
+    alumna: true
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+    - Metrics Dashboard
+    - ZettelGeist
+  webpage:
+  externalWebpage:
+  img: /assets/img/linetteMaliakal.jpeg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Meister
+  firstName: Emily
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+   - Metrics Dashboard
+  webpage: undergraduateStudents/stephanieRodriquez
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Miller
+  firstName: Allan
+  middleInitial:
+  section:
+    alumna:
+    alumnus: true
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+    - Metrics Dashboard
+    - ZettelGeist
+  webpage: alumni/allanMiller
+  externalWebpage:
+  img: /assets/img/allanMiller.jpeg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Engineer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Motyashok
+  firstName: Iryna
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Narowski
+  firstName: Jack
+  middleInitial:
+  section:
+    alumna:
+    alumnus: true
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+    - History of Computing
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Palacios
+  firstName: Daniel
+  middleInitial:
+  section:
+    alumna:
+    alumnus: true
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Pinderski
+  firstName: Austin
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+    - Metrics Dashboard
+  webpage: undergraduateStudents/austinPinderski
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Putter
+  firstName: Jean-Luc
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent: true
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+    - Metrics Dashboard
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Richardson
+  firstName: Morgan
+  middleInitial:
+  section:
+    alumna: true
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+    - ZettelGeist
+  webpage:
+  externalWebpage:
+  img: /assets/img/morganRichardson.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Robinson
+  firstName: Mike
+  middleInitial:
+  section:
+    alumna:
+    alumnus: true
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Roche
+  firstName: Trey
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+    - Color deficiency Correction
+  webpage: undergraduateStudents/treyRoche
+  externalWebpage:
+  img: /assets/img/treyRoche.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Rodriguez
+  firstName: Stephanie
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+    - Metrics Dashboard
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Rose
+  firstName: Alex
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+    - History of Computing
+    - Metrics Dashboard
+  webpage: undergraduateStudents/alexRose
+  externalWebpage:
+  img: /assets/img/alexRose.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Engineer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Synovic
+  firstName: Nicholas
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership: true
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+    - Metrics Dashboard
+    - PoliPy
+    - SSL Website
+  webpage: undergraduateStudents/nicholasSynovic
+  externalWebpage:
+  img: /assets/img/nicholasSynovic.png
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Engineer
+    studentLeadership: Administrator
+    facultyLeadership:
+    other:
+
+- lastName: Von Hatten
+  firstName: Sophie
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent: true
+    studentLeadership: true
+    undergraduateStudent:
+    other:
+  associatedProjects:
+    - Metrics Dashboard
+  webpage: graduateStudents/sophieVonHatten
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership: Administrator
+    facultyLeadership:
+    other:
+
+- lastName: Warkentin
+  firstName: Jonathan
+  middleInitial:
+  section:
+    alumna:
+    alumnus: true
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+    - Metrics Dashboard
+    - Shape Analysis
+    - ZettelGeist
+  webpage:
+  externalWebpage:
+  img: /assets/img/jonathanWarkentin.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: West
+  firstName: Jack
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent: true
+    studentLeadership: true
+    undergraduateStudent:
+    other:
+  associatedProjects:
+    - VoltKey
+    - ZettelGeist
+  webpage:
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Engineer
+    studentLeadership: Administrator
+    facultyLeadership:
+    other:
+
+- lastName: Zugschwert
+  firstName: Martin
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent: true
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+    - Metrics Dashboard
+  webpage: graduateStudents/martinZugschwert
+  externalWebpage:
+  img: /assets/img/martinZugschwert.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
