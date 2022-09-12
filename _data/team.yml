@@ -305,7 +305,7 @@
   middleInitial:
   section:
     alumna:
-      alumnus: true
+    alumnus: true
     facultyAdvisor:
     facultyLeadership:
     graduateStudent:
