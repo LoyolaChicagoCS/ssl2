@@ -38,7 +38,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - Metrics Dashboard
   webpage:
   externalWebpage:
   img: /assets/img/shilpika.jpeg
@@ -64,9 +63,7 @@
     undergraduateStudent: true
     other:
   associatedProjects:
-    - Non-Local Mean Curvature
-    - VoltKey
-  webpage: undergraduateStudents/isaacAhlgren
+  webpage: 
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
@@ -83,17 +80,15 @@
   middleInitial:
   section:
     alumna:
-    alumnus:
+    alumnus: true
     facultyAdvisor:
     facultyLeadership:
     graduateStudent:
-    studentLeadership: true
-    undergraduateStudent: true
+    studentLeadership:
+    undergraduateStudent:
     other:
   associatedProjects:
-    - Metrics Dashboard
-    - ZettelGeist
-  webpage: undergraduateStudents/emmanuelAmobi
+  webpage: 
   externalWebpage:
   img: /assets/img/emmanuelAmobi.jpg
   socials:
@@ -101,7 +96,7 @@
     linkedin:
   titles:
     default: Software Developer
-    studentLeadership: Administrator
+    studentLeadership: 
     facultyLeadership:
     other:
 
@@ -118,7 +113,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-   - ZettelGeist
   webpage:
   externalWebpage:
   img: /assets/img/rileyClarkson.jpg
@@ -135,17 +129,16 @@
   firstName: Alexandra
   middleInitial:
   section:
-    alumna:
+    alumna: true
     alumnus:
     facultyAdvisor:
     facultyLeadership:
     graduateStudent:
     studentLeadership:
-    undergraduateStudent: true
+    undergraduateStudent: 
     other:
   associatedProjects:
-    - History of Computing
-  webpage: undergraduateStudents/alexandraCrane
+  webpage: 
   externalWebpage:
   img: /assets/img/alexandraCrane.jpg
   socials:
@@ -170,7 +163,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - ZettelGeist
   webpage:
   externalWebpage:
   img: /assets/img/zacharyGallagher.jpeg
@@ -196,9 +188,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - Metrics Dashboard
-    - ZettelGeist
-  webpage: alumni/seanHiggins
+  webpage: 
   externalWebpage:
   img: /assets/img/seanHiggins.jpeg
   socials:
@@ -215,16 +205,15 @@
   middleInitial:
   section:
     alumna:
-    alumnus:
+      alumnus: true
     facultyAdvisor:
     facultyLeadership:
     graduateStudent:
     studentLeadership:
-    undergraduateStudent: true
+    undergraduateStudent: 
     other:
   associatedProjects:
-    - Cyclometric Complexity
-  webpage: undergraduateStudents/collinJones
+  webpage: 
   externalWebpage:
   img: /assets/img/collinJones.jpg
   socials:
@@ -274,8 +263,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - Metrics Dashboard
-    - ZettelGeist
   webpage:
   externalWebpage:
   img: /assets/img/linetteMaliakal.jpeg
@@ -292,17 +279,16 @@
   firstName: Emily
   middleInitial:
   section:
-    alumna:
+    alumna: true
     alumnus:
     facultyAdvisor:
     facultyLeadership:
     graduateStudent:
     studentLeadership:
-    undergraduateStudent: true
+    undergraduateStudent: 
     other:
   associatedProjects:
-   - Metrics Dashboard
-  webpage: undergraduateStudents/stephanieRodriquez
+  webpage: 
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
@@ -327,9 +313,7 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - Metrics Dashboard
-    - ZettelGeist
-  webpage: alumni/allanMiller
+  webpage: 
   externalWebpage:
   img: /assets/img/allanMiller.jpeg
   socials:
@@ -345,13 +329,13 @@
   firstName: Iryna
   middleInitial:
   section:
-    alumna:
+    alumna: true
     alumnus:
     facultyAdvisor:
     facultyLeadership:
     graduateStudent:
     studentLeadership:
-    undergraduateStudent: true
+    undergraduateStudent: 
     other:
   associatedProjects:
   webpage:
@@ -379,7 +363,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - History of Computing
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -422,16 +405,15 @@
   middleInitial:
   section:
     alumna:
-    alumnus:
+    alumnus: true
     facultyAdvisor:
     facultyLeadership:
     graduateStudent:
     studentLeadership:
-    undergraduateStudent: true
+    undergraduateStudent: 
     other:
   associatedProjects:
-    - Metrics Dashboard
-  webpage: undergraduateStudents/austinPinderski
+  webpage: 
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
@@ -448,15 +430,14 @@
   middleInitial:
   section:
     alumna:
-    alumnus:
+    alumnus: true
     facultyAdvisor:
     facultyLeadership:
-    graduateStudent: true
+    graduateStudent:
     studentLeadership:
     undergraduateStudent:
     other:
   associatedProjects:
-    - Metrics Dashboard
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -482,7 +463,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - ZettelGeist
   webpage:
   externalWebpage:
   img: /assets/img/morganRichardson.jpg
@@ -525,16 +505,15 @@
   middleInitial:
   section:
     alumna:
-    alumnus:
+    alumnus: true
     facultyAdvisor:
     facultyLeadership:
     graduateStudent:
     studentLeadership:
-    undergraduateStudent: true
+    undergraduateStudent:
     other:
   associatedProjects:
-    - Color deficiency Correction
-  webpage: undergraduateStudents/treyRoche
+  webpage: 
   externalWebpage:
   img: /assets/img/treyRoche.jpg
   socials:
@@ -550,16 +529,15 @@
   firstName: Stephanie
   middleInitial:
   section:
-    alumna:
+    alumna: true
     alumnus:
     facultyAdvisor:
     facultyLeadership:
     graduateStudent:
     studentLeadership:
-    undergraduateStudent: true
+    undergraduateStudent:
     other:
   associatedProjects:
-    - Metrics Dashboard
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -577,17 +555,15 @@
   middleInitial:
   section:
     alumna:
-    alumnus:
+    alumnus: true
     facultyAdvisor:
     facultyLeadership:
     graduateStudent:
     studentLeadership:
-    undergraduateStudent: true
+    undergraduateStudent:
     other:
   associatedProjects:
-    - History of Computing
-    - Metrics Dashboard
-  webpage: undergraduateStudents/alexRose
+  webpage: 
   externalWebpage:
   img: /assets/img/alexRose.jpg
   socials:
@@ -607,15 +583,12 @@
     alumnus:
     facultyAdvisor:
     facultyLeadership:
-    graduateStudent:
-    studentLeadership: true
-    undergraduateStudent: true
+    graduateStudent: true
+    studentLeadership:
+    undergraduateStudent:
     other:
   associatedProjects:
-    - Metrics Dashboard
-    - PoliPy
-    - SSL Website
-  webpage: undergraduateStudents/nicholasSynovic
+  webpage: 
   externalWebpage:
   img: /assets/img/nicholasSynovic.png
   socials:
@@ -623,7 +596,7 @@
     linkedin:
   titles:
     default: Software Engineer
-    studentLeadership: Administrator
+    studentLeadership: 
     facultyLeadership:
     other:
 
@@ -631,17 +604,16 @@
   firstName: Sophie
   middleInitial:
   section:
-    alumna:
+    alumna: true
     alumnus:
     facultyAdvisor:
     facultyLeadership:
-    graduateStudent: true
-    studentLeadership: true
+    graduateStudent: 
+    studentLeadership:
     undergraduateStudent:
     other:
   associatedProjects:
-    - Metrics Dashboard
-  webpage: graduateStudents/sophieVonHatten
+  webpage: 
   externalWebpage:
   img: /assets/img/user.jpg
   socials:
@@ -649,7 +621,7 @@
     linkedin:
   titles:
     default: Software Developer
-    studentLeadership: Administrator
+    studentLeadership:
     facultyLeadership:
     other:
 
@@ -666,9 +638,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - Metrics Dashboard
-    - Shape Analysis
-    - ZettelGeist
   webpage:
   externalWebpage:
   img: /assets/img/jonathanWarkentin.jpg
@@ -686,7 +655,7 @@
   middleInitial:
   section:
     alumna:
-    alumnus:
+    alumnus: true
     facultyAdvisor:
     facultyLeadership:
     graduateStudent: true
@@ -694,8 +663,6 @@
     undergraduateStudent:
     other:
   associatedProjects:
-    - VoltKey
-    - ZettelGeist
   webpage:
   externalWebpage:
   img: /assets/img/user.jpg
@@ -704,7 +671,7 @@
     linkedin:
   titles:
     default: Software Engineer
-    studentLeadership: Administrator
+    studentLeadership:
     facultyLeadership:
     other:
 
@@ -713,16 +680,15 @@
   middleInitial:
   section:
     alumna:
-    alumnus:
+    alumnus: true
     facultyAdvisor:
     facultyLeadership:
-    graduateStudent: true
+    graduateStudent:
     studentLeadership:
     undergraduateStudent:
     other:
   associatedProjects:
-    - Metrics Dashboard
-  webpage: graduateStudents/martinZugschwert
+  webpage: 
   externalWebpage:
   img: /assets/img/martinZugschwert.jpg
   socials:
