@@ -50,6 +50,106 @@
     facultyLeadership:
     other:
 
+- lastName: Yanek
+  firstName: Oscar
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+  webpage: 
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Sethi
+  firstName: Rohan
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+  webpage: 
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Veselsky
+  firstName: Jakob
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent: true
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+  webpage: 
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
+- lastName: Hyatt
+  firstName: Matt
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor:
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent: true
+    other:
+  associatedProjects:
+  webpage: 
+  externalWebpage:
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Software Developer
+    studentLeadership:
+    facultyLeadership:
+    other:
+
 - lastName: Ahlgren
   firstName: Isaac
   middleInitial:
