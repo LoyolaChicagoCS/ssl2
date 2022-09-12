@@ -100,6 +100,31 @@
     facultyLeadership:
     other: Collaborator
 
+- lastName: Davis
+  firstName: Jamie
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor: true
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other:
+  associatedProjects:
+  webpage:
+  externalWebpage: https://davisjam.github.io/
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Faculty Advisor
+    studentLeadership:
+    facultyLeadership:
+    other: Advisor
+
 - lastName: Chan-tin
   firstName: Eric
   middleInitial:
