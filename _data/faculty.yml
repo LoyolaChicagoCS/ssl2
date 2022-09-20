@@ -100,6 +100,7 @@
     facultyLeadership:
     other: Collaborator
 
+
 - lastName: Chan-tin
   firstName: Eric
   middleInitial:
@@ -333,6 +334,81 @@
     studentLeadership:
     facultyLeadership:
     other: Advisor
+
+- lastName: Tung
+  firstName: Caleb
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor: true
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other: Purdue University Collaborators
+  associatedProjects:
+  webpage:
+  externalWebpage: 
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Ph.D. Student at Purdue University
+    studentLeadership:
+    facultyLeadership:
+    other: Collaborator
+
+- lastName: Jiang
+  firstName: Wenxin
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor: true
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other: Purdue University Collaborators
+  associatedProjects:
+  webpage:
+  externalWebpage: 
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Ph.D. Student at Purdue University
+    studentLeadership:
+    facultyLeadership:
+    other: Collaborator
+
+- lastName: Davis
+  firstName: Jamie
+  middleInitial:
+  section:
+    alumna:
+    alumnus:
+    facultyAdvisor: true
+    facultyLeadership:
+    graduateStudent:
+    studentLeadership:
+    undergraduateStudent:
+    other: Purdue University Collaborators
+  associatedProjects:
+  webpage:
+  externalWebpage: https://davisjam.github.io/
+  img: /assets/img/user.jpg
+  socials:
+    github:
+    linkedin:
+  titles:
+    default: Assistant Professor at Purdue University
+    studentLeadership:
+    facultyLeadership:
+    other: Collaborator
 
 - lastName: Lu
   firstName: Yung-Hsiang
