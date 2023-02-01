@@ -300,31 +300,6 @@
     facultyLeadership:
     other:
 
-- lastName: Jones
-  firstName: Collin
-  middleInitial:
-  section:
-    alumna:
-    alumnus: true
-    facultyAdvisor:
-    facultyLeadership:
-    graduateStudent:
-    studentLeadership:
-    undergraduateStudent: 
-    other:
-  associatedProjects:
-  webpage: 
-  externalWebpage:
-  img: /assets/img/collinJones.jpg
-  socials:
-    github:
-    linkedin:
-  titles:
-    default: Software Developer
-    studentLeadership:
-    facultyLeadership:
-    other:
-
 - lastName: Lake
   firstName: Andrew
   middleInitial:
